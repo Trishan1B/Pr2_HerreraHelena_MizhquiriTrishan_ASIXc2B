@@ -1,29 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
     <!-- Definició de l'element principal 'receptes' -->
     <xs:element name="receptes">
         <xs:complexType>
             <xs:sequence>
+                <!-- Cada recepta pot aparèixer diverses vegades -->
                 <xs:element name="recepta" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
+                            <!-- Autor, opcional -->
+                            <xs:element name="autor" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <!-- Nom de l'autor -->
+                                        <xs:element name="nom" type="xs:string"/>
+                                        <!-- DNI de l'autor amb format especificat -->
+                                        <xs:element name="dni">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="[0-9]{8}[A-Z]"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <!-- Nom de la recepta -->
                             <xs:element name="nom" type="xs:string"/>
+                            <!-- Ingredients, que poden aparèixer o no -->
                             <xs:element name="ingredients" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
+                                        <!-- Cada ingredient pot aparèixer diverses vegades -->
                                         <xs:element name="ingredient" maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:sequence>
+                                                    <!-- Quantitat, amb valor i mesura -->
                                                     <xs:element name="quantitat">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <!-- Regla per assegurar que 'valor' només accepti nombres enters -->
+                                                                <!-- Valor ha de ser un nombre enter -->
                                                                 <xs:element name="valor" type="xs:integer"/>
+                                                                <!-- Mesura és un text lliure, com grams, litres, etc. -->
                                                                 <xs:element name="mesura" type="xs:string"/>
                                                             </xs:sequence>
                                                         </xs:complexType>
                                                     </xs:element>
+                                                    <!-- Nom de l'ingredient, com all, patata, etc. -->
                                                     <xs:element name="nom" type="xs:string"/>
                                                 </xs:sequence>
                                             </xs:complexType>
@@ -31,16 +54,18 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
+                            <!-- Llista de passos, amb almenys 2 passos -->
                             <xs:element name="passos">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <!-- Regla per assegurar que hi hagi almenys 2 'pas' -->
                                         <xs:element name="pas" type="xs:string" maxOccurs="unbounded" minOccurs="2"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
+                            <!-- Categoria, opcional -->
+                            <xs:element name="categoria" type="xs:string" minOccurs="0"/>
                         </xs:sequence>
-                        <!-- Regla per assegurar que l'atribut 'dificultat' sigui entre 0 i 10 i sigui obligatori -->
+                        <!-- Atribut de dificultat, obligatori, amb valors entre 0 i 10 -->
                         <xs:attribute name="dificultat" use="required">
                             <xs:simpleType>
                                 <xs:restriction base="xs:integer">
@@ -49,10 +74,8 @@
                                 </xs:restriction>
                             </xs:simpleType>
                         </xs:attribute>
-                        <!-- Regla per l'autor (opcional) -->
-                        <xs:element name="autor" type="xs:string" minOccurs="0"/>
-                        <!-- Regla per validar la categoria (opcional però amb valors restringits) -->
-                        <xs:element name="categoria" minOccurs="0">
+                        <!-- Categoria, opcional amb restricció -->
+                        <xs:attribute name="categoria">
                             <xs:simpleType>
                                 <xs:restriction base="xs:string">
                                     <xs:enumeration value="primer"/>
@@ -61,20 +84,10 @@
                                     <xs:enumeration value="altres"/>
                                 </xs:restriction>
                             </xs:simpleType>
-                        </xs:element>
+                        </xs:attribute>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-
-    <!-- Regla per validar el format correcte del DNI (fins a 9 caràcters) -->
-    <xs:element name="dni" minOccurs="0">
-        <xs:simpleType>
-            <xs:restriction base="xs:string">
-                <xs:pattern value="[0-9]{8}[A-Za-z]"/>
-            </xs:restriction>
-        </xs:simpleType>
-    </xs:element>
-
 </xs:schema>
