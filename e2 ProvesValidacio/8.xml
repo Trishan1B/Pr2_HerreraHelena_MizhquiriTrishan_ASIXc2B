@@ -7,7 +7,7 @@
         Pr2 XSD exercici 2
 -->
 <receptes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:noNamespaceSchemaLocation="/home/trishan.mizhquiri.7e6/Documents/Pr2_HerreraHelena_MizhquiriTrishan_ASIXc2B/e1/e2_receptes.xsd">
+xsi:noNamespaceSchemaLocation="e2_receptes.xsd">
     <recepta dificultat="5" categoria="nova categoria">
         <autor>
             <nom>John Doe</nom>
