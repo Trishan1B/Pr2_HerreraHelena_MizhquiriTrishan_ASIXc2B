@@ -94,9 +94,15 @@ nav ul li a {
     color: inherit; /* Hereda el color del elemento padre, puedes cambiarlo a un color específico */
     text-decoration: none; /* Elimina el subrayado del enlace */
 }
-footer ul li a {
-    color: white; /* Establece el color del texto en blanco para el footer */
+footer ul li a:hover {
+    color: #007bff; /* Establece el color del texto en blanco para el footer */
     text-decoration: none;
+}
+footer ul li a {
+    text-decoration: none; /* Elimina el subratllat dels enllaços */
+    color: rgb(230, 231, 243); /* Color del text per defecte */
+    padding: 10px; /* Espai al voltant del text */
+    transition: background-color 0.3s, color 0.3s; /* Transició suau per a canvis de color */
 }
 .subscribe-button {
     padding: 5px 80px; /* Establece el padding superior/inferior a 5px y derecho/izquierdo a 80px */
@@ -111,3 +117,4 @@ footer ul li a {
 .subscribe-button:hover {
     background-color: #6f93b9; /* Cambia el color de fondo al pasar el cursor sobre el botón */
 }
+
