@@ -126,3 +126,8 @@ footer ul li a {
     color: #555;
     font-size: 0.7em;
 }
+.subscribe img,
+.about-me img {
+    display: block;
+    margin: 0 auto; /* Esto centra la imagen horizontalmente */
+}
