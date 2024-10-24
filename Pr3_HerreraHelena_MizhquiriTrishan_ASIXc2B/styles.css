@@ -95,7 +95,7 @@ nav ul li a {
     text-decoration: none; /* Elimina el subrayado del enlace */
 }
 nav ul li a:hover {
-    color: green; /* Establece el color del texto en blanco para el footer */
+    color: #007bff; /* Establece el color del texto en blanco para el footer */
     text-decoration: none;
 }
 footer ul li a {
@@ -106,7 +106,7 @@ footer ul li a {
 }
 .subscribe-button {
     padding: 5px 80px; /* Establece el padding superior/inferior a 5px y derecho/izquierdo a 80px */
-    background-color: green; /* Cambia el color de fondo, puedes ajustarlo según tus preferencias */
+    background-color: #6f93b9; /* Cambia el color de fondo, puedes ajustarlo según tus preferencias */
     color: white; /* Establece el color del texto en blanco */
     border: none; /* Elimina el borde por defecto del botón */
     border-radius: 5px; /* Opcional: añade esquinas redondeadas */
@@ -117,4 +117,12 @@ footer ul li a {
 .subscribe-button:hover {
     background-color: #6f93b9; /* Cambia el color de fondo al pasar el cursor sobre el botón */
 }
-
+.fecha-lineas {
+    text-align: center;
+    margin: 10px 0;
+    border-top: 1px solid #23bd1e;
+    border-bottom: 1px solid #23bd1e;
+    padding: 5px 0;
+    color: #555;
+    font-size: 0.7em;
+}
