@@ -1,0 +1,11 @@
+img {
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+h1 {
+    text-align: justify;
+    color: green;
+    font-size: 30px;
+    font-family: Arial;
+}
