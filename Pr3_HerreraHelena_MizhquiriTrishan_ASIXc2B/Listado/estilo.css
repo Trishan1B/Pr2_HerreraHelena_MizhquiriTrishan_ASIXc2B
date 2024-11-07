@@ -1,11 +1,87 @@
-img {
-    display: block;
-    width: 70%;
-    margin: auto;
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
 }
-h1 {
+
+/* Container for Boxed Layout */
+.container {
+    background-color: #f4f4f9;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Header Styling */
+.header {
+    background-color: #f4f4f9;
+    border-bottom: 0px solid #f4f4f9;
     text-align: justify;
-    color: green;
-    font-size: 30px;
-    font-family: Arial;
+    margin-bottom: 0px;
+}
+
+.header-content {
+    display: flex;
+    align-items: justify;
+    justify-content: justify;
+}
+
+.header-image {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.header h1 {
+    font-size: 1.8rem;
+    color: #1a7f37;
+    font-weight: bold;
+    margin: 0;
+}
+
+.header p {
+    color: #555;
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: justify;
+}
+
+/* Recipe Section Styling */
+.recipe {
+    padding: 10px 0;
+}
+
+.recipe h2 {
+    color: #388e3c;
+    font-size: 18px;
+    margin: 0;
+}
+
+.description {
+    font-style: italic;
+    color: #777;
+}
+
+.icons {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.icons img {
+    width: 20px;
+    height: 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 15px 0;
 }
