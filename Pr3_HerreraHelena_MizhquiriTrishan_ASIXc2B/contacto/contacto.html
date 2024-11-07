@@ -1,25 +1,42 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Formulari de contacte</title>
-        <link rel="stylesheet" type="text/css" href="../css/estilos.css">
-        <style>
-            img {
-                display: block;
-                width: 70%;
-                margin: auto;
-            }
-            h1 {
-                text-align: center;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <h1>En construcció</h1>
-            <img src="images.jpeg" alt="En construcció">
-            <a href="../index.html">Tornar a la pàgina principal</a>
-        </div>
-    </body>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alta a la web</title>
+  <link rel="stylesheet" href="style-contacte.css">
+</head>
+<body>
+
+  <form action="/alta" method="GET">
+    <h2>Formulari d'Alta</h2>
+
+    <!-- Nom (input de text) -->
+    <label for="nom">Nom</label>
+    <input type="text" id="nom" name="nom" required>
+
+    <!-- Correu electrònic (input de correu) -->
+    <label for="correu">Correu electrònic</label>
+    <input type="email" id="correu" name="correu" required>
+
+    <!-- Tipus de Recepta (selector) -->
+    <label for="tipus">Tipus de Recepta</label>
+    <select id="tipus" name="tipus" required>
+      <option value="postres">Postres</option>
+      <option value="primer">Primer Plat</option>
+      <option value="segon">Segon Plat</option>
+      <option value="beguda">Beguda</option>
+    </select>
+
+    <!-- Descripció (àrea de text) -->
+    <label for="descripcio">Descripció de la Recepta</label>
+    <textarea id="descripcio" name="descripcio" rows="4" required></textarea>
+
+    <!-- Botó d'enviament -->
+    <button type="submit">Enviar</button>
+    
+    <!-- Enllaç per tornar a la pàgina principal -->
+    <a href="../index.html" class="boto-retorn">Torna a la pàgina principal</a>
+    </form>       
+</body>
 </html>
