@@ -6,7 +6,12 @@
     font-family: 'Arial', sans-serif;
 }
 
-/* Estilos del Header */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Estilo para el header */
 header {
     background-color: #f7f7f7;
     padding: 20px;
@@ -16,73 +21,81 @@ header {
 header h1 {
     font-size: 2.5rem;
     color: #333;
-    margin: 0;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
 }
 
-/* Estilos del Main */
+/* Estilo para el main */
 main {
     display: flex;
     justify-content: center;
     margin: 20px;
 }
 
-/* Sección de Recetas */
+/* Sección de la receta */
 .receta {
     width: 60%;
     max-width: 900px;
     margin: 0 auto;
 }
 
-.receta h2 {
+/* Estilos de los recuadros */
+.cuadro {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Efecto hover para los recuadros */
+.cuadro:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para los títulos dentro de los recuadros */
+h2 {
     font-size: 1.8rem;
-    margin: 20px 0;
     color: #333;
+    border-bottom: 2px solid #8bc34a; /* Línea verde para separar */
+    padding-bottom: 10px;
+    margin-bottom: 15px;
 }
 
-.receta ul {
-    list-style-type: none;
-}
-
-.receta ul li {
-    font-size: 1rem;
-    margin: 8px 0;
-    color: #555;
-}
-
-.receta ol {
-    list-style-type: decimal;
+/* Listas de ingredientes y pasos */
+ul, ol {
     margin-left: 20px;
-}
-
-.receta ol li {
     font-size: 1rem;
-    margin: 8px 0;
-    color: #555;
 }
 
-.receta p {
-    font-size: 1rem;
-    margin: 10px 0;
-    color: #555;
+ul li, ol li {
+    margin-bottom: 10px;
 }
 
+/* Estilo de la imagen */
 .receta img {
     width: 100%;
-    height: auto;
-    margin: 20px 0;
-    border-radius: 8px;
+    border-radius: 12px;
+    margin-top: 20px;
 }
 
-/* Estilos del Footer */
-footer {
-    background-color: #f7f7f7;
-    text-align: center;
-    padding: 15px;
-    font-size: 0.9rem;
-    color: #888;
+/* Estilo de las fechas y la descripción de la receta */
+.receta p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
 }
 
-/* Diseño Responsivo */
+/* Estilo de las listas de ingredientes, pasos, etc. */
+.receta ul, .receta ol  {
+    list-style-position: inside;
+}
+
+
+/* Estilos para móviles (Responsivos) */
 @media (max-width: 768px) {
     header h1 {
         font-size: 2rem;
@@ -92,11 +105,54 @@ footer {
         width: 90%;
     }
 
-    .receta h2 {
+    .cuadro {
+        padding: 15px;
+    }
+
+    .cuadro h2 {
         font-size: 1.6rem;
     }
 
-    .receta ul li, .receta ol li, .receta p {
+    .receta p, .receta ul li, .receta ol li {
         font-size: 0.9rem;
     }
+}
+
+
+/* Estilo para el footer */
+footer {
+    text-align: center; /* Centra el contenido del footer */
+    background-color: #0a0a0a; /* Color de fondo del footer */
+    padding: 20px 0; /* Espaciado vertical */
+    width: 100%;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline; /* Elementos en línea */
+    margin: 0 10px; /* Espaciado entre elementos de la lista */
+}
+
+footer ul li a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: rgb(230, 231, 243); /* Color del texto por defecto */
+    padding: 5px; /* Espaciado alrededor del texto */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave para cambios de color */
+}
+
+/* FORZAMOS EL TAMAÑO DE FUENTE DEL FOOTER */
+footer {
+    font-size: 0.4em !important;  /* Tamaño de fuente más pequeño, con !important */
+    color: white; /* Color del texto */
+    bottom: 0;
+}
+
+/* Estilo de los enlaces al pasar el mouse */
+footer ul li a:hover {
+    color: #007bff; /* Color al pasar el ratón por encima */
 }
