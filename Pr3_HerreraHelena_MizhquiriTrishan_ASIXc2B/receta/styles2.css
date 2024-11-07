@@ -1,0 +1,102 @@
+/* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos del Header */
+header {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 0;
+}
+
+/* Estilos del Main */
+main {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* Sección de Recetas */
+.receta {
+    width: 60%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.receta h2 {
+    font-size: 1.8rem;
+    margin: 20px 0;
+    color: #333;
+}
+
+.receta ul {
+    list-style-type: none;
+}
+
+.receta ul li {
+    font-size: 1rem;
+    margin: 8px 0;
+    color: #555;
+}
+
+.receta ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+.receta ol li {
+    font-size: 1rem;
+    margin: 8px 0;
+    color: #555;
+}
+
+.receta p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #555;
+}
+
+.receta img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+/* Estilos del Footer */
+footer {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+/* Diseño Responsivo */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .receta {
+        width: 90%;
+    }
+
+    .receta h2 {
+        font-size: 1.6rem;
+    }
+
+    .receta ul li, .receta ol li, .receta p {
+        font-size: 0.9rem;
+    }
+}
