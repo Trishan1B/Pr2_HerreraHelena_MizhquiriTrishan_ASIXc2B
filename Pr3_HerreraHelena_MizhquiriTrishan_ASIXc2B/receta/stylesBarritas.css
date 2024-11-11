@@ -156,3 +156,7 @@ footer {
 footer ul li a:hover {
     color: #007bff; /* Color al pasar el ratón por encima */
 }
+a {
+    color: black;
+    text-decoration: none;
+}
