@@ -1,1 +1,294 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<receptes>
+    <recepta>
+        <nom>Barritas energéticas de frutos rojos con chocolate</nom>
+        <ingredients>
+            <ingredient>
+                <nom>frutos rojos</nom>
+                <quantitat>200</quantitat>
+                    <mesura>grams</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>avena</nom>
+                <quantitat>100</quantitat>
+                    <mesura>grams</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>chocolate oscuro</nom>
+                <quantitat>50</quantitat>
+                    <mesura>grams</mesura>
+            </ingredient>
+        </ingredients>
+        <temps>
+            <preparació>20 minuts</preparació>
+            <coccio>15 minuts</coccio>
+            <dificultat>fàcil</dificultat>
+        </temps>
+        <passos>
+            <pas>Precalentar el horno a 180°C.</pas>
+            <pas>Mezclar los frutos rojos con la avena.</pas>
+            <pas>Derretir el chocolate y distribuirlo encima.</pas>
+        </passos>
+    </recepta>
+    <recepta>
+        <nom>Arroz Negro</nom>
+        <ingredients>
+            <ingredient>
+                <nom> caldo de frijol</nom>
+                <quantitat>200</quantitat>
+                    <mesura>litros</mesura>
+            </ingredient>
+            <ingredient>
+                <nom> arroz</nom>
+                <quantitat>250</quantitat>
+                    <mesura>gramos</mesura>
+            </ingredient>
+            <ingredient>
+                <nom> manteca</nom>
+                <quantitat>40</quantitat>
+                    <mesura>gramos</mesura>
+            </ingredient>
+            <ingredient>
+                <nom> hojas de epazote</nom>
+                <quantitat>4</quantitat>
+                    <mesura>unidades</mesura>
+            </ingredient>
+            <ingredient>
+                <nom> dientes de ajo</nom>
+                <quantitat>2</quantitat>
+                    <mesura>unidades</mesura>
+            </ingredient>
+            <ingredient>
+                <nom> chiles serranos</nom>
+                <quantitat>2</quantitat>
+                    <mesura>unidades</mesura>
+            </ingredient>
+            <ingredient>
+                <nom> cebolla</nom>
+                <quantitat>1</quantitat>
+                    <mesura>unidades</mesura>
+            </ingredient>
+            <ingredient>
+                <nom> sal</nom>
+                <quantitat>al gusto</quantitat>
+                    <mesura>gramos</mesura>
+            </ingredient>
+        </ingredients>
+        <temps>
+            <preparació>20 minutos</preparació>
+            <coccio>25 minutos</coccio>
+            <dificultat>baja</dificultat>
+        </temps>
+        <passos>
+            <pas>Remoja el arroz en agua hirviendo durante 15 minutos. Luego, lávalo en agua fría, escúrrelo y fríelo en manteca hasta que empiece a dorarse.</pas>
+            <pas>Agrega los dientes de ajo y la cebolla (molidos y disueltos en el caldo de frijol), los chiles serranos y las hojas de epazote.</pas>
+            <pas>Cubre la mezcla y deja hervir a fuego lento hasta que el arroz esté bien cocido.</pas>
+            <pas>Rinde aproximadamente 6 raciones.</pas>
+        </passos>
+    </recepta>
+    <recepta>
+        <nom>Base de Pizza</nom>
+        <ingredients>
+            <ingredient>
+                <nom>leche</nom>
+                <quantitat>5</quantitat>
+                    <mesura>cucharadas</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>aceite</nom>
+                <quantitat>5</quantitat>
+                    <mesura>cucharadas</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>cerveza</nom>
+                <quantitat>5</quantitat>
+                    <mesura>cucharadas</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>levadura</nom>
+                <quantitat>1</quantitat>
+                    <mesura>cucharada</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>harina</nom>
+                <quantitat>10</quantitat>
+                    <mesura>cucharadas</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>sal</nom>
+                <quantitat>al gusto</quantitat>
+                    <mesura>gramos</mesura>
+            </ingredient>
+        </ingredients>
+        <temps>
+            <preparació>20 minutos</preparació>
+            <coccio>15-20 minutos</coccio>
+            <dificultat>fácil</dificultat>
+        </temps>
+        <passos>
+            <pas>Vertir la leche, el aceite y la cerveza en un bol.</pas>
+            <pas>Añadir la levadura y la sal. Mezclar un poco y añadir la harina poco a poco</pas>
+            <pas>Amasar con las manos hasta obtener una masa suave que no se pegue.</pas>
+            <pas>Extender la masa sobre la bandeja del horno</pas>
+            <pas>Si deseas hacer una pizza, añadir tomate frito y los ingredientes de tu elección (queso, cebolla, jamón, beicon, atún, salchichas...).</pas>
+            <pas>Hornear a 180°C entre 15 y 20 minutos hasta que la base esté dorada.</pas>
+        </passos>
+    </recepta>
+    <recepta>
+        <nom>Calabacines rellenos de arroz negro y calabaza</nom>
+        <ingredients>
+            <ingredient>
+                <nom>calabacines medianos</nom>
+                <quantitat>2</quantitat>
+                <mesura>unidades</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>arroz negro</nom>
+                <quantitat>150</quantitat>
+                <mesura>gramos</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>calabaza</nom>
+                <quantitat>200</quantitat>
+                <mesura>gramos</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>diente de ajo</nom>
+                <quantitat>1</quantitat>
+                <mesura>unidad</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>aceite de oliva</nom>
+                <quantitat>al gusto</quantitat>
+                <mesura>ml</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>sal</nom>
+                <quantitat>al gusto</quantitat>
+                <mesura>gramos</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>pimienta</nom>
+                <quantitat>al gusto</quantitat>
+                <mesura>gramos</mesura>
+            </ingredient>
+        </ingredients>
+        <temps>
+            <preparació>20 minutos</preparació>
+            <coccio>30 minutos</coccio>
+            <dificultat>media</dificultat>
+        </temps>
+        <passos>
+            <pas>Cocer el arroz negro según las instrucciones del paquete.</pas>
+            <pas>Cortar los calabacines a la mitad y vaciar su interior con una cuchara.</pas>
+            <pas>En una sartén, sofreír el ajo picado con un poco de aceite de oliva.</pas>
+            <pas>Agregar la calabaza cortada en cubos pequeños y cocinar hasta que esté tierna.</pas>
+            <pas>Mezclar la calabaza cocida con el arroz negro y rellenar los calabacines.</pas>
+            <pas>Hornear a 180°C durante 15-20 minutos hasta que los calabacines estén tiernos.</pas>
+        </passos>        
+    </recepta>
+    <recepta>
+        <nom>Galletas de rosa, lima y avena</nom>
+        <ingredients>
+            <ingredient>
+                <nom>harina de avena</nom>
+                <quantitat>200</quantitat>
+                <mesura>gramos</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>azúcar</nom>
+                <quantitat>100</quantitat>
+                <mesura>gramos</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>aceite de coco</nom>
+                <quantitat>50</quantitat>
+                <mesura>gramos</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>agua de rosa</nom>
+                <quantitat>2</quantitat>
+                <mesura>cucharadas</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>limón</nom>
+                <quantitat>1</quantitat>
+                <mesura>unidad</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>sal</nom>
+                <quantitat>al gusto</quantitat>
+                <mesura>gramos</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>polvo de hornear</nom>
+                <quantitat>1</quantitat>
+                <mesura>cucharadita</mesura>
+            </ingredient>
+        </ingredients>
+        <temps>
+            <preparació>20 minutos</preparació>
+            <coccio>15 minutos</coccio>
+            <dificultat>fácil</dificultat>
+        </temps>
+        <passos>
+            <pas>Precalentar el horno a 180°C.</pas>
+            <pas>Mezclar la harina de avena con el azúcar, la sal y el polvo de hornear.</pas>
+            <pas>Incorporar el aceite de coco y el agua de rosa.</pas>
+            <pas>Rallar la cáscara de limón y añadirla a la mezcla.</pas>
+            <pas>Formar bolitas con la masa y hornear durante 12-15 minutos.</pas>
+        </passos>
+    </recepta>
+    <recepta>
+        <nom>Pasta con salsa de coliflor y pimienta de Jamaica</nom>
+        <ingredients>
+            <ingredient>
+                <nom>pasta</nom>
+                <quantitat>200</quantitat>
+                <mesura>gramos</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>coliflor</nom>
+                <quantitat>300</quantitat>
+                <mesura>gramos</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>pimienta de Jamaica</nom>
+                <quantitat>1</quantitat>
+                <mesura>cucharadita</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>aceite de oliva</nom>
+                <quantitat>2</quantitat>
+                <mesura>cucharadas</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>ajo</nom>
+                <quantitat>1</quantitat>
+                <mesura>diente</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>sal</nom>
+                <quantitat>al gusto</quantitat>
+                <mesura>gramos</mesura>
+            </ingredient>
+            <ingredient>
+                <nom>leche de almendra</nom>
+                <quantitat>200</quantitat>
+                <mesura>ml</mesura>
+            </ingredient>
+        </ingredients>
+        <temps>
+            <preparació>10 minutos</preparació>
+            <coccio>20 minutos</coccio>
+            <dificultat>media</dificultat>
+        </temps>
+        <passos>
+            <pas>Cocer la pasta según las instrucciones del paquete.</pas>
+            <pas>En una sartén, sofreír el ajo picado con aceite de oliva.</pas>
+            <pas>Agregar la coliflor troceada y cocinar hasta que esté tierna.</pas>
+            <pas>Agregar la leche de almendra y la pimienta de Jamaica, y triturar hasta obtener una salsa suave.</pas>
+            <pas>Mezclar la pasta con la salsa de coliflor y servir.</pas>
+        </passos>
+    </recepta>
+</receptes>
