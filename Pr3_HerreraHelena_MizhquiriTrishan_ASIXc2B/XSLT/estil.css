@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #333;
+    line-height: 1.6;
+}
+.recepta {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+h2 {
+    color: #d9534f;
+    margin-bottom: 10px;
+}
+ul, ol {
+    margin: 0 0 10px 20px;
+    padding: 0;
+}
