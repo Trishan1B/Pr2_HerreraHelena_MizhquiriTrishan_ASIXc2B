@@ -19,3 +19,11 @@ ul, ol {
     margin: 0 0 10px 20px;
     padding: 0;
 }
+
+h3 {
+    color: #e25f5a;
+    margin-bottom: 10px;
+}
+h1 {
+    text-align: center;
+}

@@ -16,7 +16,7 @@
                     <div class="recepta">
                         <!-- Nombre de la recepta -->
                         <div class="nom">
-                            <xsl:value-of select="nom" />
+                            <h2><xsl:value-of select="nom" /></h2>
                         </div>
                         
                         <!-- Información de tiempos y dificultad -->
@@ -28,7 +28,7 @@
                         
                         <!-- Lista de ingredientes -->
                         <div class="ingredients">
-                            <b>Ingredients:</b>
+                            <h3><b>Ingredients:</b></h3>
                             <ul>
                                 <xsl:for-each select="ingredients/ingredient">
                                     <li>
@@ -42,7 +42,7 @@
                         
                         <!-- Pasos para la preparación -->
                         <div class="passos">
-                            <b>Passos:</b>
+                            <h3><b>Passos:</b></h3>
                             <ol>
                                 <xsl:for-each select="passos/pas">
                                     <li><xsl:value-of select="." /></li>
