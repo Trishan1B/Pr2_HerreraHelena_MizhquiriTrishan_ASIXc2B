@@ -7,42 +7,7 @@
         <html>
             <head>
                 <title>Llibre de Receptes</title>
-                <style>
-                    /* Estilos CSS para la página */
-                    body {
-                        font-family: Arial, sans-serif;
-                        background-color: #f4f4f4;
-                        margin: 20px;
-                        color: #333;
-                    }
-                    .recepta {
-                        background: #fff;
-                        border: 1px solid #ddd;
-                        padding: 15px;
-                        margin: 10px 0;
-                        border-radius: 5px;
-                        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                    }
-                    .nom {
-                        font-size: 24px;
-                        font-weight: bold;
-                        color: #333;
-                    }
-                    .temps {
-                        font-size: 14px;
-                        color: #666;
-                        margin-top: 10px;
-                    }
-                    .ingredients, .passos {
-                        margin-top: 20px;
-                    }
-                    .ingredients ul, .passos ol {
-                        padding-left: 20px;
-                    }
-                    .ingredients li, .passos li {
-                        margin-bottom: 5px;
-                    }
-                </style>
+                <link rel="stylesheet" type="text/css" href="/Pr3_HerreraHelena_MizhquiriTrishan_ASIXc2B/XSLT/estil.css" />
             </head>
             <body>
                 <h1>Llibre de Receptes</h1>
